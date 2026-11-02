@@ -24,6 +24,6 @@ jobs:
         run: echo "El repositorio es ${{ github.repository }}"
       - name: Variable GitHub Action
         run: echo "La acción es ${{ github.action}}"
-      - name: Variable GitHub Repository Action
-        run: echo "La acción repositorio es ${{ github.action_repository}}"
+      - name: Variable GitHub Job
+        run: echo "El job es ${{ github.job}}"
             
